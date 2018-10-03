@@ -15,7 +15,7 @@ public class Client {
 		// create service
 		Service service = Service.create(SERVICE_NAME);
         // Add a port to the Service
-	    service.addPort(PORT_NAME, SOAPBinding.SOAP11HTTP_BINDING, "http://localhost:8080/my-first-cxf-springmvc/services/baeldung");
+	    service.addPort(PORT_NAME, SOAPBinding.SOAP11HTTP_BINDING, "http://localhost:8080/cxf-webmvc/services/baeldung");
 	    
 	    // create SOAP-Proxy:
 	    Baeldung baeldungProxy = service.getPort(PORT_NAME, Baeldung.class);
