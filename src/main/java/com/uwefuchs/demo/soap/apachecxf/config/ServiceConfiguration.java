@@ -9,7 +9,5 @@ public class ServiceConfiguration {
 	@Bean
 	public SpringBus springBus() {
 	    return new SpringBus();
-	}
-	
-	
+	}	
 }

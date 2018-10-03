@@ -4,7 +4,7 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<groupId>com.uwefuchs.demo.soap.apachecxf</groupId>
-	<artifactId>my-first-cxf-springmvc</artifactId>
+	<artifactId>-cxf-webmvc</artifactId>
 	<packaging>war</packaging>
 	<version>1.0-SNAPSHOT</version>
 
@@ -62,7 +62,7 @@
 	</dependencies>
 
 	<build>
-		<finalName>my-first-cxf-springmvc</finalName>
+		<finalName>cxf-webmvc</finalName>
 		<plugins>
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
