@@ -4,7 +4,7 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<groupId>com.uwefuchs.demo.soap.apachecxf</groupId>
-	<artifactId>-cxf-webmvc</artifactId>
+	<artifactId>cxf-webmvc</artifactId>
 	<packaging>war</packaging>
 	<version>1.0-SNAPSHOT</version>
 
